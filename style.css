@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+.container {
+  margin-top: 100px;
+}
+.wheel {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 10px solid #333;
+  border-radius: 50%;
+  background: conic-gradient(#ffcc00 0% 25%, #ff6600 25% 50%, #66cc66 50% 75%, #3399ff 75% 100%);
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
